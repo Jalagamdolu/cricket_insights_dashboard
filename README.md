@@ -1,16 +1,153 @@
-# React + Vite
+🏏 Cricket Insights – Cricket Analysis Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Cricket Match Analysis Dashboard built using React (Vite), Tailwind CSS, and Recharts.
 
-Currently, two official plugins are available:
+This project visualizes cricket match data through interactive charts, structured scorecards, and professional summary components — inspired by broadcast-style analytics platforms.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Project Overview
 
-## React Compiler
+Cricket Insights is a frontend dashboard application designed to present match statistics in a clean, structured, and visually engaging format.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application demonstrates:
 
-## Expanding the ESLint configuration
+Component-based architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Data-driven UI rendering
+
+Interactive data visualization
+
+Responsive layout design
+
+Scalable frontend structure
+
+🛠 Tech Stack
+
+React (Vite) – Fast and modern frontend setup
+
+Tailwind CSS – Utility-first responsive styling
+
+Recharts – Interactive data visualization
+
+PostCSS & Autoprefixer – CSS processing
+
+📁 Folder Structure
+src/
+ ├── components/
+ │     Navbar.jsx
+ │     SummaryCards.jsx
+ │     ManhattanChart.jsx
+ │     ScorecardTable.jsx
+ │
+ ├── pages/
+ │     Dashboard.jsx
+ │
+ ├── data/
+ │     matchData.js
+ │
+ ├── App.jsx
+ ├── main.jsx
+🔥 Key Features
+1️⃣ Match Summary Cards
+
+Displays:
+
+Match Result
+
+Player of the Match
+
+Winning Margin
+
+Total Runs
+
+Designed with a clean, minimal UI and subtle hover effects.
+
+2️⃣ Run Rate Visualization (Manhattan Chart)
+
+Over-by-over run progression
+
+Dual-team comparison
+
+Responsive line/area chart
+
+Clean broadcast-style presentation
+
+Built using Recharts for smooth performance and scalability.
+
+3️⃣ Professional Scorecard Tables
+
+Reusable table component used for:
+
+Batting Scorecard
+
+Bowling Scorecard
+
+Features:
+
+Structured alignment
+
+Clean typography
+
+Responsive horizontal scrolling
+
+Professional match-report layout
+
+4️⃣ Scalable Data Layer
+
+The matchData.js file contains structured mock data including:
+
+Match summary
+
+Innings details
+
+Batting scorecard
+
+Bowling scorecard
+
+Over-by-over run progression
+
+This separation of UI and data ensures maintainability and easy backend integration in the future.
+
+🧪 Running the Project
+Clone the Repository
+git clone https://github.com/your-username/cricket-insights.git
+cd cricket-insights
+Install Dependencies
+npm install
+Start Development Server
+npm run dev
+Build for Production
+npm run build
+📱 Responsive Design
+
+The dashboard is fully responsive and optimized for:
+
+Desktop
+
+Tablet
+
+Mobile
+
+Built using Tailwind CSS grid and responsive utilities.
+
+🚀 Future Improvements
+
+Multiple match selection
+
+Backend API integration
+
+Advanced analytics (Worm graph, partnerships)
+
+Player statistics filters
+
+Tournament-level dashboard
+
+👨‍💻 Author
+
+Jalagama Dolender
+Application Support Engineer | Aspiring Software Developer
+
+LinkedIn:
+https://www.linkedin.com/in/jalagam-dolender-vel-tech-chennai-1b0a10347/
+
+GitHub:
+https://github.com/Jalagamdolu
